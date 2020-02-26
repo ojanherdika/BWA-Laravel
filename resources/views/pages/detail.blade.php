@@ -39,17 +39,17 @@
                                         <img src="frontend/images/details-2.jpg" class="xzoom-gallery" width="128"
                                             xpreview="frontend/images/details-2.jpg">
                                     </a>
-                                    <a href="frontend/images/details-1.jpg">
-                                        <img src="frontend/images/details-1.jpg" class="xzoom-gallery" width="128"
-                                            xpreview="frontend/images/details-1.jpg">
+                                    <a href="frontend/images/details-3.jpg">
+                                        <img src="frontend/images/details-3.jpg" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/images/details-3.jpg">
                                     </a>
-                                    <a href="frontend/images/details-1.jpg">
-                                        <img src="frontend/images/details-1.jpg" class="xzoom-gallery" width="128"
-                                            xpreview="frontend/images/details-1.jpg">
+                                    <a href="frontend/images/details-4.jpg">
+                                        <img src="frontend/images/details-4.jpg" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/images/details-4.jpg">
                                     </a>
-                                    <a href="frontend/images/details-1.jpg">
-                                        <img src="frontend/images/details-1.jpg" class="xzoom-gallery" width="128"
-                                            xpreview="frontend/images/details-1.jpg">
+                                    <a href="frontend/images/details-5.jpg">
+                                        <img src="frontend/images/details-5.jpg" class="xzoom-gallery" width="128"
+                                            xpreview="frontend/images/details-5.jpg">
                                     </a>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
 @endpush
 @push('addon-script')
 <script src="{{url('frontend/libraries/xzoom/xzoom.min.js')}}"></script>
-    <script>
+<script>
         $(document).ready(function () {
             $('.xzoom, .xzoom-gallery').xzoom({
                 zoomWidth: 500,
@@ -144,6 +144,5 @@
                 xoffset: 15
             });
         });
-
-    </script>
+</script>
 @endpush
