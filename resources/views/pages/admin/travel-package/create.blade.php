@@ -67,8 +67,6 @@
             <button type="submit" class="btn btn-primary btn-block">
             Simpan
             </button>
-
-            
             </form>
             </div>
         </div>
